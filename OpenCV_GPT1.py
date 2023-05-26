@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
+
 
 # Load the class labels from disk
 rows = open('class_labels.txt').read().strip().split("\n")
